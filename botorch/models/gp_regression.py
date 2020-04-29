@@ -279,7 +279,7 @@ class FixedNoiseGP(BatchedMultiOutputGPyTorchModel, ExactGP):
 
 
 class HeteroskedasticSingleTaskGP(SingleTaskGP):
-    r"""A single-task exact GP model using a heteroskeastic noise model.
+    r"""A single-task exact GP model using a heteroskedastic noise model.
 
     This model internally wraps another GP (a SingleTaskGP) to model the
     observation noise. This allows the likelihood to make out-of-sample
